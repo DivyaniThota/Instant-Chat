@@ -7,23 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BBDB162A5D04EC2BB8D6B056 /* Pods_Instant_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15303434DB343B48C3A73B56 /* Pods_Instant_Chat.framework */; };
 		D7F8CDFD2B683B7700E3EDC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8CDFC2B683B7700E3EDC1 /* AppDelegate.swift */; };
 		D7F8CDFF2B683B7700E3EDC1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8CDFE2B683B7700E3EDC1 /* SceneDelegate.swift */; };
-		D7F8CE012B683B7700E3EDC1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8CE002B683B7700E3EDC1 /* ViewController.swift */; };
+		D7F8CE012B683B7700E3EDC1 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8CE002B683B7700E3EDC1 /* WelcomeViewController.swift */; };
 		D7F8CE042B683B7700E3EDC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F8CE022B683B7700E3EDC1 /* Main.storyboard */; };
 		D7F8CE062B683B7900E3EDC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7F8CE052B683B7900E3EDC1 /* Assets.xcassets */; };
 		D7F8CE092B683B7900E3EDC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7F8CE072B683B7900E3EDC1 /* LaunchScreen.storyboard */; };
+		D7F8CE132B68525F00E3EDC1 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8CE122B68525F00E3EDC1 /* RegisterViewController.swift */; };
+		D7F8CE152B68528900E3EDC1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8CE142B68528900E3EDC1 /* LoginViewController.swift */; };
+		D7F8CE172B6852AB00E3EDC1 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8CE162B6852AB00E3EDC1 /* MessageViewController.swift */; };
+		D7F8CE192B68820500E3EDC1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7F8CE182B68820400E3EDC1 /* GoogleService-Info.plist */; };
+		D7F8CE1B2B6955DD00E3EDC1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8CE1A2B6955DD00E3EDC1 /* Constants.swift */; };
+		D7F8CE1E2B695C2D00E3EDC1 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8CE1D2B695C2D00E3EDC1 /* Message.swift */; };
+		D7F8CE252B6967FA00E3EDC1 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7F8CE232B6967FA00E3EDC1 /* MessageCell.swift */; };
+		D7F8CE262B6967FA00E3EDC1 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7F8CE242B6967FA00E3EDC1 /* MessageCell.xib */; };
+		D7F8CE292B69B2B400E3EDC1 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D7F8CE282B69B2B400E3EDC1 /* IQKeyboardManagerSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15303434DB343B48C3A73B56 /* Pods_Instant_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instant_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A302D3AC142152011C5A2268 /* Pods-Instant Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instant Chat.release.xcconfig"; path = "Target Support Files/Pods-Instant Chat/Pods-Instant Chat.release.xcconfig"; sourceTree = "<group>"; };
+		D3B37E0C788B9C228D146605 /* Pods-Instant Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instant Chat.debug.xcconfig"; path = "Target Support Files/Pods-Instant Chat/Pods-Instant Chat.debug.xcconfig"; sourceTree = "<group>"; };
 		D7F8CDF92B683B7700E3EDC1 /* Instant Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instant Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7F8CDFC2B683B7700E3EDC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7F8CDFE2B683B7700E3EDC1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D7F8CE002B683B7700E3EDC1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7F8CE002B683B7700E3EDC1 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		D7F8CE032B683B7700E3EDC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7F8CE052B683B7900E3EDC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7F8CE082B683B7900E3EDC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7F8CE0A2B683B7900E3EDC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7F8CE122B68525F00E3EDC1 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		D7F8CE142B68528900E3EDC1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D7F8CE162B6852AB00E3EDC1 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		D7F8CE182B68820400E3EDC1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D7F8CE1A2B6955DD00E3EDC1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D7F8CE1D2B695C2D00E3EDC1 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		D7F8CE232B6967FA00E3EDC1 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		D7F8CE242B6967FA00E3EDC1 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +52,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBDB162A5D04EC2BB8D6B056 /* Pods_Instant_Chat.framework in Frameworks */,
+				D7F8CE292B69B2B400E3EDC1 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C1E72B0B5BEA2630408DCA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15303434DB343B48C3A73B56 /* Pods_Instant_Chat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A19001F5F85DF1A10C7DCA2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3B37E0C788B9C228D146605 /* Pods-Instant Chat.debug.xcconfig */,
+				A302D3AC142152011C5A2268 /* Pods-Instant Chat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D7F8CDF02B683B7700E3EDC1 = {
 			isa = PBXGroup;
 			children = (
 				D7F8CDFB2B683B7700E3EDC1 /* Instant Chat */,
 				D7F8CDFA2B683B7700E3EDC1 /* Products */,
+				A19001F5F85DF1A10C7DCA2C /* Pods */,
+				8C1E72B0B5BEA2630408DCA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +100,45 @@
 			children = (
 				D7F8CDFC2B683B7700E3EDC1 /* AppDelegate.swift */,
 				D7F8CDFE2B683B7700E3EDC1 /* SceneDelegate.swift */,
-				D7F8CE002B683B7700E3EDC1 /* ViewController.swift */,
-				D7F8CE022B683B7700E3EDC1 /* Main.storyboard */,
+				D7F8CE112B68522300E3EDC1 /* Controllers */,
+				D7F8CE1C2B695BCF00E3EDC1 /* Models */,
+				D7F8CE102B68520F00E3EDC1 /* Views */,
 				D7F8CE052B683B7900E3EDC1 /* Assets.xcassets */,
 				D7F8CE072B683B7900E3EDC1 /* LaunchScreen.storyboard */,
 				D7F8CE0A2B683B7900E3EDC1 /* Info.plist */,
+				D7F8CE182B68820400E3EDC1 /* GoogleService-Info.plist */,
+				D7F8CE1A2B6955DD00E3EDC1 /* Constants.swift */,
 			);
 			path = "Instant Chat";
+			sourceTree = "<group>";
+		};
+		D7F8CE102B68520F00E3EDC1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D7F8CE022B683B7700E3EDC1 /* Main.storyboard */,
+				D7F8CE232B6967FA00E3EDC1 /* MessageCell.swift */,
+				D7F8CE242B6967FA00E3EDC1 /* MessageCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D7F8CE112B68522300E3EDC1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D7F8CE002B683B7700E3EDC1 /* WelcomeViewController.swift */,
+				D7F8CE122B68525F00E3EDC1 /* RegisterViewController.swift */,
+				D7F8CE142B68528900E3EDC1 /* LoginViewController.swift */,
+				D7F8CE162B6852AB00E3EDC1 /* MessageViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D7F8CE1C2B695BCF00E3EDC1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D7F8CE1D2B695C2D00E3EDC1 /* Message.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +148,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D7F8CE0D2B683B7900E3EDC1 /* Build configuration list for PBXNativeTarget "Instant Chat" */;
 			buildPhases = (
+				4DC0F07313D12EF4F1D2F98B /* [CP] Check Pods Manifest.lock */,
 				D7F8CDF52B683B7700E3EDC1 /* Sources */,
 				D7F8CDF62B683B7700E3EDC1 /* Frameworks */,
 				D7F8CDF72B683B7700E3EDC1 /* Resources */,
+				3FB33A841E0A55CAAE685193 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Instant Chat";
+			packageProductDependencies = (
+				D7F8CE282B69B2B400E3EDC1 /* IQKeyboardManagerSwift */,
+			);
 			productName = "Instant Chat";
 			productReference = D7F8CDF92B683B7700E3EDC1 /* Instant Chat.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +190,9 @@
 				Base,
 			);
 			mainGroup = D7F8CDF02B683B7700E3EDC1;
+			packageReferences = (
+				D7F8CE272B69B2B400E3EDC1 /* XCRemoteSwiftPackageReference "iqkeyboardmanager" */,
+			);
 			productRefGroup = D7F8CDFA2B683B7700E3EDC1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,7 +207,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7F8CE262B6967FA00E3EDC1 /* MessageCell.xib in Resources */,
 				D7F8CE092B683B7900E3EDC1 /* LaunchScreen.storyboard in Resources */,
+				D7F8CE192B68820500E3EDC1 /* GoogleService-Info.plist in Resources */,
 				D7F8CE062B683B7900E3EDC1 /* Assets.xcassets in Resources */,
 				D7F8CE042B683B7700E3EDC1 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +217,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3FB33A841E0A55CAAE685193 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Instant Chat/Pods-Instant Chat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Instant Chat/Pods-Instant Chat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Instant Chat/Pods-Instant Chat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DC0F07313D12EF4F1D2F98B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Instant Chat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D7F8CDF52B683B7700E3EDC1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7F8CE012B683B7700E3EDC1 /* ViewController.swift in Sources */,
+				D7F8CE012B683B7700E3EDC1 /* WelcomeViewController.swift in Sources */,
 				D7F8CDFD2B683B7700E3EDC1 /* AppDelegate.swift in Sources */,
 				D7F8CDFF2B683B7700E3EDC1 /* SceneDelegate.swift in Sources */,
+				D7F8CE152B68528900E3EDC1 /* LoginViewController.swift in Sources */,
+				D7F8CE1B2B6955DD00E3EDC1 /* Constants.swift in Sources */,
+				D7F8CE1E2B695C2D00E3EDC1 /* Message.swift in Sources */,
+				D7F8CE172B6852AB00E3EDC1 /* MessageViewController.swift in Sources */,
+				D7F8CE132B68525F00E3EDC1 /* RegisterViewController.swift in Sources */,
+				D7F8CE252B6967FA00E3EDC1 /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,12 +419,14 @@
 		};
 		D7F8CE0E2B683B7900E3EDC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B37E0C788B9C228D146605 /* Pods-Instant Chat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 25U3T3T2T8;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Instant Chat/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -300,6 +434,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,12 +450,14 @@
 		};
 		D7F8CE0F2B683B7900E3EDC1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A302D3AC142152011C5A2268 /* Pods-Instant Chat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 25U3T3T2T8;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Instant Chat/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,6 +465,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -363,6 +501,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D7F8CE272B69B2B400E3EDC1 /* XCRemoteSwiftPackageReference "iqkeyboardmanager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/iqkeyboardmanager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D7F8CE282B69B2B400E3EDC1 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7F8CE272B69B2B400E3EDC1 /* XCRemoteSwiftPackageReference "iqkeyboardmanager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D7F8CDF12B683B7700E3EDC1 /* Project object */;
 }
