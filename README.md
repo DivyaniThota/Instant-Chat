@@ -29,11 +29,8 @@ FEATURES
 SCREENSHOTS
 ---
 ![IMG_5582](https://github.com/user-attachments/assets/96d97935-08af-46a9-b7fe-71a922f736eb)
-
 ![IMG_5583](https://github.com/user-attachments/assets/62d379a6-070f-433d-9ce4-73b34cef188d)
-
 ![IMG_5584](https://github.com/user-attachments/assets/6e3b8989-e83b-42df-8907-be6aa359c9bb)
-
 ![IMG_5585](https://github.com/user-attachments/assets/28efedb8-4c28-4ef4-941a-cfab6a889e37)
 
 
