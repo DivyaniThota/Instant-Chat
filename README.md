@@ -35,7 +35,8 @@ SCREENSHOTS
 
 DEMO
 ---
-<img src="https://github.com/user-attachments/assets/673a1803-eda6-4059-a094-cede3715dbb2" alt="Image" width="200"/>
+<video src="https://github.com/user-attachments/assets/673a1803-eda6-4059-a094-cede3715dbb2" width="300" controls> </video>
+
 
 
 
