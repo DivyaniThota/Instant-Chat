@@ -1,4 +1,4 @@
-                                  INSTANT CHAT 
+                                     INSTANT CHAT 
 OBJECTIVE
 ---
 The aim of this project is to develop a messaging application named Instant Chat.
