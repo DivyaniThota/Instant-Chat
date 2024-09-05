@@ -13,7 +13,7 @@ TECHNOLOGIES USED
 * Swift
 * UIKit
 * Firebase Firestore Database
-* Cocoapods Package Manager
+* Cocoapods 
 * Swift Package Manager
 * UITableViews
 
